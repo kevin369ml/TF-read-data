@@ -1,4 +1,4 @@
-# TF-read-data
+# TF-read-write-data
 
 Tensorflow has 4 general ways to read data, link: https://www.tensorflow.org/api_guides/python/reading_data:
 1. tf.data
@@ -19,3 +19,5 @@ Trying `tf.data`...
     a. pay attention to the `reminder` (when num_samples/batch_size is not an interger)
     
     b. we need to make sure we `alawys have test data before finishing training`, which means the `test iterator` should not stop before `train iterator`
+
+![Test](https://github.com/kevin28520/TF-read-data/blob/master/test.PNG?raw=true)
