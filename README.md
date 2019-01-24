@@ -20,7 +20,6 @@ Trying `tf.data`...
     
     b. we need to make sure we `alawys have test data before finishing training`, which means the `test iterator` should not stop before `train iterator`
 
-![Test](https://github.com/kevin28520/TF-read-data/blob/master/test.PNG?raw=true)
 
 #### TODO
 
